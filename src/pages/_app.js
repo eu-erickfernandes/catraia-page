@@ -1,4 +1,15 @@
+import Head from "next/head"
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const App = ({ Component, pageProps }) => {
+  return (
+    <>
+      <Head>
+        <title>Catraia Soluções Ambientais</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }
+
+
+export default App

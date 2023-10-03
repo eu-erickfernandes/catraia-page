@@ -1,10 +1,14 @@
 import SecaoHero from "@/components/SecaoHero";
+import SecaoSobre from "@/components/SecaoSobre";
 
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-      <SecaoHero></SecaoHero>
+      <SecaoHero/>
+      <SecaoSobre/>
     </>
   )
 }
+
+export default Home
