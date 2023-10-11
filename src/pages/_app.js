@@ -1,4 +1,5 @@
 import Head from "next/head"
+import "../styles/reset.css"
 import "../styles/global.css"
 
 const App = ({ Component, pageProps }) => {
@@ -7,6 +8,7 @@ const App = ({ Component, pageProps }) => {
       <Head>
         <title>Catraia Soluções Ambientais</title>
       </Head>
+
       <Component {...pageProps} />
     </>
   )

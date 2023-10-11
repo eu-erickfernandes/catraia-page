@@ -1,6 +1,10 @@
-const Botao = ({ children }) => {
+import styles from './Botao.module.css'
+
+const Botao = ({ children, secundario }) => {
+    const className = secundario ? `${ styles.botao } ${ styles.secundario }` : `${ styles.botao }`
+    
     return (
-        <button>{ children }</button>
+        <button className={ className }>{ children }</button>
     )
 }
 
