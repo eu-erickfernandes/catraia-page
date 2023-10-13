@@ -13,13 +13,17 @@ const SecaoHero = () => {
                     <ul className={ styles.cabecalho__lista }>
                         <li><a href='#'>Home</a></li>
                         <li>•</li>
-                        <li><a href='#'>Sobre nós</a></li>
+                        <li><a href='#sobre'>Sobre nós</a></li>
                         <li>•</li>
-                        <li><a href='#'>Serviços</a></li>
+                        <li><a href='#servicos'>Serviços</a></li>
+                        <li>•</li>
+                        <li><a href='#endereco'>Endereço</a></li>
                     </ul>
                 </nav>
 
-                <Botao>Fale concosco</Botao>
+                <a href="#contato">
+                    <Botao>Fale concosco</Botao>
+                </a>
             </header>
 
             <main className={ styles.principal }>
@@ -29,8 +33,13 @@ const SecaoHero = () => {
                 </div>
                 
                 <div className={ styles.principal__botoes }>
-                    <Botao>Fale concosco</Botao>
-                    <Botao secundario>Conheça os nossos serviços</Botao>
+                    <a href="#contato">
+                        <Botao>Fale concosco</Botao>
+                    </a>
+                    
+                    <a href="#servicos">
+                        <Botao secundario>Conheça os nossos serviços</Botao>
+                    </a>
                 </div>
             </main>
         </section>

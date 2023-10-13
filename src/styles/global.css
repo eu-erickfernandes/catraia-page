@@ -7,8 +7,14 @@
 
 body, body *{
     --fonte-titulo: 'Abril Fatface', sans-serif;
-    
+
     font-family: 'Inter', sans-serif;
+}
+
+.secao__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 /* CORES */
@@ -28,4 +34,10 @@ body, body *{
     /* Componentes */
     --cor-fundo--roxo: hsl(250, 60%, 95%);
     --cor-fundo--verde: hsl(150, 60%, 95%);
+}
+
+/* SCROLL */
+
+:root{
+    scroll-behavior: smooth;
 }

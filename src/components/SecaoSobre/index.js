@@ -1,10 +1,12 @@
+import styles from './SecaoSobre.module.css'
+
 const SecaoSobre = () => {
     return(
-        <section>
-            <img/>
+        <section id='sobre' className={ styles.sobre }>
+            <img className={ styles.sobre__imagem } src='./foto-equipe.png' alt='Foto da equipe da Catraia' />
 
-            <main>
-                <h2>Um pouco da nossa história</h2>
+            <main className={ styles.sobre__principal }>
+                <h2 className={ `secao__titulo ${ styles.sobre__titulo }` }>Um pouco da nossa história</h2>
 
                 <p>Desde 2020, vabilizamos atividades voltadas ao desenvolvimento socioeconômico, ambiental e gestão sustentável dos recursos naturais.</p>
 

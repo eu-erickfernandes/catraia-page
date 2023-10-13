@@ -1,0 +1,6 @@
+.containerServicos{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+}

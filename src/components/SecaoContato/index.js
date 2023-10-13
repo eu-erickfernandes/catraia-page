@@ -1,10 +1,15 @@
+import styles from './SecaoContato.module.css'
+
+// TODO
+// -Colocar a imagem e ajustar num container
+
 const SecaoContato = () => {
     return(
-        <section>
-            <h2>Fale concosco</h2>
+        <section className={ styles.contato } id="contato">
+            <h2 className={ `secao__titulo ${ styles.contato__titulo }` }>Fale concosco</h2>
 
-            <form>
-                <h3>Diretamente para o nosso e-mail</h3>
+            <form className={ styles.contato__formulario }>
+                <h3 className={ styles.contato__subtitulo }>Diretamente para o nosso e-mail</h3>
 
                 <div>
                     <label>Nome completo</label>

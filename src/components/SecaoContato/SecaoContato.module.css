@@ -1,0 +1,15 @@
+.contato{
+    background-color: var(--cor-roxo--5);
+    color: var(--cor-branco);
+    padding-block: 1.5rem;
+}
+
+    .contato__titulo{
+        text-align: center;
+    }
+
+    .contato__subtitulo{
+        font-family: var(--fonte-titulo);
+        font-size: 2rem;
+        font-weight: 400;
+    }

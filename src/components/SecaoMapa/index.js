@@ -1,14 +1,24 @@
+import styles from './SecaoMapa.module.css'
+import pin from './pin.svg'
+
 const SecaoMapa = () => {
     return (
-        <section>
-            <h2>Nosso endereço</h2>
+        <a href="https://maps.app.goo.gl/eVhx5xjTafipePmL7" target='_blank'>
+            <section className={ styles.mapa } id='endereco'>
+                <div className={ styles.mapa__containerTitulo }>
+                    <img src={ pin.src } alt='Endereço' />
+                    <h2 className="secao__titulo">Nosso endereço</h2>
+                </div>
 
-            <p>Rua General Vieira de Melo, 588</p>
-            <p>•</p>
-            <p>Conjunto Esperança</p>
-            <p>•</p>
-            <p>Rio Branco - AC</p>
-        </section>
+                <div className={ styles.mapa__endereco }>
+                    <p>Rua General Vieira de Melo, 588</p>
+                    <p>•</p>
+                    <p>Conjunto Esperança</p>
+                    <p>•</p>
+                    <p>Rio Branco - AC</p>
+                </div>
+            </section>
+        </a>
     )
 }
 

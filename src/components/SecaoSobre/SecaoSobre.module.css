@@ -1,0 +1,23 @@
+.sobre{
+    background-color: var(--cor-fundo--verde);
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4rem;
+}
+
+    .sobre__principal{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .sobre__titulo{
+        color: var(--cor-roxo);
+    }
+
+    .sobre__principal p{
+        font-size: 1.5rem;
+        line-height: 120%;
+        text-align: justify;
+    }
