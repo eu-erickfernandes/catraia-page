@@ -1,6 +1,9 @@
 .contato{
     background-color: var(--cor-roxo--5);
     color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     padding-block: 1.5rem;
 }
 
@@ -8,8 +11,29 @@
         text-align: center;
     }
 
-    .contato__subtitulo{
-        font-family: var(--fonte-titulo);
-        font-size: 2rem;
-        font-weight: 400;
+    .contato__container{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 6rem;
     }
+
+        .contato__formulario{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            width: 35%;
+        }
+
+            .contato__subtitulo{
+                font-family: var(--fonte-titulo);
+                font-size: 2rem;
+                font-weight: 400;
+            }
+
+        .contato__redes{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+        }   

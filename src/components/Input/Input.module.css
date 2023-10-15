@@ -1,0 +1,30 @@
+.grupo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.label{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.input, .textarea{
+    background-color: transparent;
+    border: 2px solid var(--cor-fundo--verde);
+    border-radius: .25rem;
+    color: inherit;
+    font-size: 1.25rem;
+    font-weight: 400;
+    outline: none;
+    padding-block: .5rem;
+    padding-inline: 1rem;
+}
+
+    .input::placeholder{
+        color: var(--cor-cinza);
+    }
+
+.textarea{
+    min-height: 6rem;
+}

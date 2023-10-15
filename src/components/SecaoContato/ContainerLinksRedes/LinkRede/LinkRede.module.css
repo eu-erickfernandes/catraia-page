@@ -1,0 +1,16 @@
+.linkRede{
+    padding-block: 1.25rem;
+    padding-inline: 4rem;
+}    
+    .linkRede:global(.email){
+        background-color: var(--cor-roxo);
+    }
+
+    .linkRede:global(.whatsapp){
+        background-color: var(--cor-verde);
+    }
+
+    .rede__icone{
+        height: 2rem;
+        width: auto;
+    }
