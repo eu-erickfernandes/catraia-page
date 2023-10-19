@@ -1,7 +1,6 @@
-/* TODO
--Hover no link do cabeçalho */
-
 .hero{
+    --largura-container: 1200px;
+
     align-items: center;
     background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('./fundo.png');
     background-position: center;
@@ -18,8 +17,13 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: var(--largura-container);
 }
+
+    .cabecalho__icone{
+        height: auto;
+        width: 190px;
+    }
 
     .cabecalho__lista{
         display: flex;
@@ -30,14 +34,22 @@
             font-weight: 600;
         }
 
+        .cabecalho__lista li:has(a):hover{
+            text-decoration: underline;
+        }
+
 .principal{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     gap: 1.5rem;
     justify-content: center;
-    width: 1200px;
+    width: var(--largura-container);
 }
+
+    .principal__aux{
+        display: none;
+    }
 
     .principal__titulos{
         display: flex;
@@ -45,20 +57,88 @@
         gap: 1rem;   
     }
 
-        .principal__titulos h2{
+        .titulo, .tituloMobile{
             font-family: var(--fonte-titulo);
             font-size: 4rem;
             font-weight: 400;
             line-height: 120%;
         }
 
-        .principal__titulos p{
+        .subtitulo, .subtituloMobile{
             font-size: 1.5rem;
             font-weight: 500;
             line-height: 125%;
+        }
+
+        .tituloMobile, .subtituloMobile{
+            display: none;
         }
 
     .principal__botoes{
         display: flex;
         gap: 1rem;
     }
+
+/* RESPONSIVIDADE */
+@media screen and (width < calc(1200px + 8rem)) {
+    .cabecalho, .principal{
+        box-sizing: border-box;
+        padding-inline: 4rem;
+        width: 100%;
+    }
+}
+
+@media screen and (width < 950px) {
+    .cabecalho nav{
+        display: none;
+    }
+}
+
+@media screen and (width < 800px) {
+    .cabecalho__botao{
+        display: none;
+    }
+}
+
+@media screen and (width < 500px) {
+    .hero{
+        padding-block: 3.5rem;
+    }
+
+    .cabecalho, .principal{
+        padding-inline: 1.5rem;
+    }
+
+        .cabecalho__icone{
+            height: auto;
+            width: 180px;
+        }
+
+    .principal{
+        justify-content: space-between;
+    }
+
+        .principal__aux{
+            display: block;
+        }
+
+        .titulo, .subtitulo{
+            display: none;
+        }
+
+        .tituloMobile, .subtituloMobile{
+            display: block;
+        }
+
+        .tituloMobile{
+            font-size: 2.5rem;
+        }
+
+        .subtituloMobile{
+            font-size: 1rem;
+        }
+
+        .principal__botoes{
+            flex-direction: column;
+        }
+}

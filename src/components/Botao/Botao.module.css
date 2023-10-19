@@ -19,9 +19,17 @@
 .secundario{
     background-color: transparent;
     border: 2px solid var(--cor-branco);
+    padding-block: calc(1rem - 2px);
 }
 
     .secundario:hover{
         background-color: var(--cor-branco);
         color: var(--cor-preto);
     }
+
+/* RESPONSIVIDADE */
+@media screen and (width < 500px) {
+    .botao{
+        width: 100%;
+    }
+}
