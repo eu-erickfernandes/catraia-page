@@ -1,12 +1,8 @@
 import Botao from '../Botao'
 import Input from '../Input'
 import ContainerLinksRedes from './ContainerLinksRedes'
+import LinkInstagram from './LinkInstagram'
 import styles from './SecaoContato.module.css'
-
-// TODO
-// -compontentizar o link do instagram
-// -Hover do link do instagram
-// -Colocar bg image do link e o icone dentro
 
 const SecaoContato = () => {
     return(
@@ -44,10 +40,7 @@ const SecaoContato = () => {
                 </form>
 
                 <div className={ styles.contato__redes }>
-                    <a href='https://www.instagram.com/catraia.ambiental/' target='_blank'>
-                        <img className={ styles.linkInstagram } src='./instagram.png' alt='Instagram'/>
-                    </a>
-
+                    <LinkInstagram />
                     <ContainerLinksRedes/>
                 </div>
             </div>

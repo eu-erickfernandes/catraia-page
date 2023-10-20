@@ -48,3 +48,43 @@
             font-weight: 500;
             line-height: 125%;
         }
+
+/* RESPONSIVIDADE */
+@media screen and (width < 800px) {
+    .cardServico{
+        border: 2px solid #DDD;
+        box-shadow: none;
+        flex-basis: 90%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        /* gap: 1rem; */
+        scroll-snap-align: start;
+    }
+}
+
+@media screen and (width < 500px){
+    .cardServico{
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+        .servico__imagem{
+            height: 185px;
+        }
+
+        .servico__containerTitulo{
+            gap: .5rem;
+        }
+
+            .servico__icone{
+                width: 2rem;
+            }
+
+            .servico__nome{
+                font-size: 1rem;
+            }
+
+            .servico__lista li{
+                font-size: 1rem;
+            }
+}

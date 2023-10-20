@@ -37,3 +37,28 @@
             flex-direction: column;
             gap: 2.5rem;
         }   
+
+/* RESPONSIVIDADE */
+@media screen and (width < 800px) {
+    .contato{
+        padding-block: 2rem;
+        padding-inline: 1.5rem;
+    }
+    .contato__container{
+        flex-direction: column;
+    }
+
+        .contato__formulario{
+            width: 100%;
+        }
+}
+
+@media screen and (width < 500px) {
+    .contato__formulario{
+        gap: 1rem;
+    }
+    
+        .contato__subtitulo{
+            font-size: 1.25rem;
+        }
+}

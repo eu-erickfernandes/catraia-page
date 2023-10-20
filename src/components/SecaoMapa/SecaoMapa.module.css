@@ -27,6 +27,7 @@
     }
     
     .mapa__endereco{
+        justify-content: center;
         gap: .5rem;
     }
 
@@ -34,3 +35,30 @@
             font-size: 1.25rem;
             font-weight: 500;
         }
+
+/* RESPONDIVIDADE */
+@media screen and (width < 750px) {
+    .mapa{
+        padding-block: 2.5rem;
+    }
+    
+    .mapa__endereco{
+        flex-direction: column;
+    }
+}
+
+@media screen and (width < 500px) {
+    .mapa__icone{
+        height: 2rem;
+        width: auto;
+    }
+
+    .mapa__endereco p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .mapa__endereco :nth-child(even){
+        display: none;
+    }
+}

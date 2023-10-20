@@ -1,16 +1,38 @@
 .linkRede{
+    display: block;
     padding-block: 1.25rem;
     padding-inline: 4rem;
 }    
-    .linkRede:global(.email){
-        background-color: var(--cor-roxo);
+
+    .linkRede.instagram{
+        background-color: black;
+        display: none;
     }
 
-    .linkRede:global(.whatsapp){
+    .linkRede.whatsapp{
         background-color: var(--cor-verde);
     }
 
-    .rede__icone{
-        height: 2rem;
-        width: auto;
+    .linkRede.email{
+        background-color: var(--cor-roxo);
     }
+
+        .rede__icone{
+            height: 2rem;
+            width: auto;
+        }
+
+/* RESPONSIVIDADE */
+@media screen and (width < 800px) {
+    .linkRede{
+        padding: 1.5rem;
+    }
+
+    .linkRede.instagram{
+        display: block;
+    }
+
+        .rede__icone{
+            height: 1.5rem;
+        }
+}

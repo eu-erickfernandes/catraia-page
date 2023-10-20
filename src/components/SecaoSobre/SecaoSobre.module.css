@@ -6,6 +6,15 @@
     padding: 4rem;
 }
 
+    .sobre__imagemMobile{
+        display: none;
+    }
+
+    .sobre__imagem{
+        height: auto;
+        width: 100%;
+    }
+
     .sobre__principal{
         display: flex;
         flex-direction: column;
@@ -16,8 +25,76 @@
         color: var(--cor-roxo);
     }
 
-    .sobre__principal p{
+    .sobre__icone{
+        display: none;
+    }
+
+    .sobre__paragrafo{
         font-size: 1.5rem;
         line-height: 120%;
         text-align: justify;
     }
+
+/* RESPONSIVIDADE */
+@media screen and (width < 768px) {
+    .sobre{
+        grid-template-columns: 1fr;
+    }
+
+        .sobre__imagem{
+            display: none;
+        }
+
+        .sobre__principal{
+            align-items: center;
+            text-align: center;
+        }
+
+            .sobre__paragrafo{
+                text-align: inherit;
+            }
+
+            .sobre__icone{
+                display: block;
+                height: auto;
+                text-align: center;
+                width: 2rem;            
+            }
+}
+
+@media screen and (width < 500px) {
+    .sobre{
+        padding: 0;
+    }
+        .sobre__imagemMobile{
+            align-items: flex-end;
+            aspect-ratio: 16 / 9;
+            background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('./fundo-mobile.png');
+            background-position: center;
+            background-size: cover;
+            box-sizing: border-box;
+            color: var(--cor-branco);
+            display: flex;
+            justify-content: center;
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+
+        .sobre__principal{
+            gap: 1.5rem;
+            padding: 1.5rem;
+        }
+
+        .sobre__titulo{
+            display: none;
+        }
+
+        .sobre__icone{
+            width: 1.5rem;
+        }
+
+        .sobre__paragrafo{
+            font-size: 1rem;
+            margin-top: -.5rem;
+        }
+}

@@ -24,3 +24,18 @@
             font-weight: 500;
             line-height: 125%;
         }
+
+@media screen and (width < 500px) {
+    .servicos{
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+        .servicos__containerTitulo{
+            gap: .5rem;
+        }
+
+            .servicos__subtitulo{
+                font-size: 1rem;
+                font-weight: 400;
+            }
+}

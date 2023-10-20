@@ -1,5 +1,16 @@
 .containerLinkRedes{
     border-radius: .5rem;
     display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
     overflow: hidden;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (width < 800px) {
+    .containerLinkRedes{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
