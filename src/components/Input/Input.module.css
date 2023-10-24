@@ -21,10 +21,15 @@
     outline: none;
     padding-block: .5rem;
     padding-inline: 1rem;
+    transition: .5s;
 }
 
     .input::placeholder{
         color: var(--cor-cinza);
+    }
+
+    :is(.input, .textarea):is(:hover, :focus-visible, :valid){
+        border-color: var(--cor-verde-hover);
     }
 
 .textarea{

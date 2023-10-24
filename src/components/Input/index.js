@@ -20,6 +20,7 @@ const Input = ({ type, name, label, required, placeholder }) => {
                 type={ type }
                 name={ name }
                 required={ required }
+                minLength={ 10 }
             ></textarea>}
         </div>
     )

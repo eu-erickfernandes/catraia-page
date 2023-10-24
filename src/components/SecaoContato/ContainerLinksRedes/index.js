@@ -8,17 +8,17 @@ const ContainerLinksRedes = () => {
         <div className={ styles.containerLinkRedes }>
             <LinkRede
                 rede="instagram"
-                url="#"
+                url="https://www.instagram.com/catraia.ambiental/"
             />
 
             <LinkRede
                 rede="whatsapp"
-                url="#"
+                url="https://whatsa.me/5568992085791"
             />
 
             <LinkRede
                 rede="email"
-                url="#"
+                url="mailto:catraia.ambiental@gmail.com"
             />
         </div>
     )
