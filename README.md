@@ -1,2 +1,4 @@
-# Catraia Soluções Ambientais
-Com o objetivo de aumentar divulgar o seu portifólio de serviços, chegou a vez da Catraia ter a sua própria landing page.
+## 🎈Sobre o projeto
+Este projeto consiste na construção de uma landing page para expor os serviços e contatos da Catraia, empresa de soluções ambientais.
+
+## 👁Preview
