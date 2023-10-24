@@ -5,7 +5,7 @@ const LinkRede = ({ rede, url }) => {
     
     return(
         <a className={ className } href={ url } target='_blank'>
-            <img className={ styles.rede__icone } src={`./icones-redes/${rede}.svg`} alt={`Ícone ${rede}`} />
+            <img className={ styles.rede__icone } src={`./icones-redes/${rede}.svg`} alt={`Ícone ${rede}`} loading='lazy' />
         </a>
     )
 }

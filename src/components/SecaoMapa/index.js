@@ -6,7 +6,7 @@ const SecaoMapa = () => {
         <a href="https://maps.app.goo.gl/eVhx5xjTafipePmL7" target='_blank'>
             <section className={ styles.mapa } id='endereco'>
                 <div className={ styles.mapa__containerTitulo }>
-                    <img className={ styles.mapa__icone } src={ pin.src } alt='Endereço' />
+                    <img className={ styles.mapa__icone } src={ pin.src } alt='Endereço' loading='lazy'/>
                     <h2 className="secao__titulo">Nosso endereço</h2>
                 </div>
 

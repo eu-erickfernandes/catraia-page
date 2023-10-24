@@ -6,7 +6,7 @@ const SecaoHero = () => {
         <section  className={ styles.hero }>
             <header className={ styles.cabecalho }>
                 <h1>
-                    <img className={ styles.cabecalho__icone } src="./logo.svg"/>
+                    <img className={ styles.cabecalho__icone } loading='lazy' src="./logo.svg"/>
                 </h1>
 
                 <nav>
