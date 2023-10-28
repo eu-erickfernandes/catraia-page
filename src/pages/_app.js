@@ -7,6 +7,7 @@ const App = ({ Component, pageProps }) => {
     <>
       <Head>
         <title>Catraia Soluções Ambientais</title>
+        <link rel="icon" href="./iconR.png" />
       </Head>
 
       <Component {...pageProps} />
