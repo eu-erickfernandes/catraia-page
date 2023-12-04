@@ -1,0 +1,113 @@
+.hero{
+    --largura-container: 1200px;
+
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('./fundo.png');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 1.5rem;
+    justify-content: center;
+    width: var(--largura-container);
+}
+
+    .principal__aux{
+        display: none;
+    }
+
+    .principal__titulos{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;   
+    }
+
+        .titulo, .tituloMobile{
+            font-family: var(--fonte-titulo);
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 120%;
+        }
+
+        .subtitulo, .subtituloMobile{
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 150%;
+        }
+
+        .tituloMobile, .subtituloMobile{
+            display: none;
+        }
+
+    .principal__botoes{
+        display: flex;
+        gap: 1rem;
+    }
+
+/* RESPONSIVIDADE */
+@media screen and (width < calc(1200px + 8rem)) {
+    .principal{
+        box-sizing: border-box;
+        padding-inline: 4rem;
+        width: 100%;
+    }
+}
+
+@media screen and (width < 800px){
+    .titulo{
+        display: none;
+    }
+
+    .tituloMobile{
+        display: block;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (width < 500px) {
+    .hero{
+        padding-block: 3.5rem;
+    }
+
+    .principal{
+        padding-inline: 1.5rem;
+    }
+
+    .principal{
+        justify-content: space-between;
+    }
+
+        .principal__aux{
+            display: block;
+        }
+
+        .subtitulo{
+            display: none;
+        }
+
+        .subtituloMobile{
+            display: block;
+        }
+
+        .tituloMobile{
+            font-size: 2rem;
+        }
+
+        .subtituloMobile{
+            font-size: 1rem;
+        }
+
+        .principal__botoes{
+            flex-direction: column;
+        }
+}

@@ -1,0 +1,44 @@
+{
+    "servicos": [
+        {
+            "nome": "Estudos Socioambientais",
+            "srcImg": "./imagens-servicos/estudos.jpg",
+            "srcIcone": "./icones-servicos/estudos.svg",
+
+            "lista": [
+                "Diagnóstico socioeconômico e ambiental em comunidades tradicionais",
+                "Mapeamento comunitário",
+                "Oficinas e capacitações"
+            ]
+        },
+
+        {
+            "nome": "Inventário Florestal",
+            "srcImg": "./imagens-servicos/inventario.png",
+            "srcIcone": "./icones-servicos/inventario.svg",
+
+            "lista": [
+                "Estoque de biomassa",
+                "Inventário florestal e fitossociológico",
+                "Projeto de recuperação de área degradada (PRAD)",
+                "Quantificação de carbono do solo",
+                "Quantificação de carbono florestal"
+            ]
+        },
+
+        {
+            "nome": "Biodiversidade",
+            "srcImg": "./imagens-servicos/biodiversidade.jpg",
+            "srcIcone": "./icones-servicos/biodiversidade.svg",
+
+            "lista": [
+                "Avifauna",
+                "Entomofauna",
+                "Herpetofauna",
+                "Ictiofauna",
+                "Mastofauna",
+                "Quiropterofauna"
+            ]
+        }
+    ]
+}
