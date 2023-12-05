@@ -45,7 +45,7 @@ const Cabecalho = () => {
                 </li>
 
                 <li>
-                    <a href="https://br.linkedin.com/in/catraia-solu%C3%A7%C3%B5es-ambientais-282202212" target='_blank'>
+                    <a href="https://www.linkedin.com/company/catraia-solucoes-ambientais/" target='_blank'>
                         <img src="./icones-redes/linkedin.svg" alt="" />
                     </a>
                 </li>
