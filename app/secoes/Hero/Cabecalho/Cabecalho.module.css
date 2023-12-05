@@ -20,7 +20,7 @@
         font-weight: 600;
     }
 
-    .menuNav li:has(a):hover{
+    .cabecalho__menuNav li:has(a):hover{
         text-decoration: underline;
     }
 

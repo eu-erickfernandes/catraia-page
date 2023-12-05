@@ -1,22 +1,33 @@
+import { Fragment } from 'react'
 import CardServico from './CardServico'
 import styles from './ContainerServicos.module.css'
+import ModalServico from './ModalServico'
 
 // TODO
-// - Fazer modais
-const ContainerServicos = () => {
+// - Estilização do modal
+const ContainerServicos = ({ dialog }) => {
     const json = require('./servicos.json')
     const servicos = json.servicos
 
     return(
         <div className={ styles.containerServicos }>
             { servicos.map((servico) => (
-                <CardServico 
-                    key={ servico.nome }
-                    nome={ servico.nome }
-                    srcImg={ servico.srcImg }
-                    srcIcone={ servico.srcIcone }
-                    lista={ servico.lista }
-                />
+                <Fragment key={ servico.id }>
+                    <CardServico 
+                        id={ servico.id }
+                        nome={ servico.nome }
+                        srcImg={ servico.srcImg }
+                        srcIcone={ servico.srcIcone }
+                        lista={ servico.lista }
+                    />
+
+                    {dialog == servico.id &&
+                        <ModalServico
+                            nome={ servico.nome }
+                            texto={ servico.texto }
+                        />
+                    }
+                </Fragment>
             )) }
         </div>
     )

@@ -1,6 +1,7 @@
 {
     "servicos": [
-        {
+        {   
+            "id": 1,
             "nome": "Estudos Socioambientais",
             "srcImg": "./imagens-servicos/estudos.jpg",
             "srcIcone": "./icones-servicos/estudos.svg",
@@ -9,10 +10,17 @@
                 "Diagnóstico socioeconômico e ambiental em comunidades tradicionais",
                 "Mapeamento comunitário",
                 "Oficinas e capacitações"
+            ],
+
+            "texto": [
+                "A Catraia Soluções Ambientais desenvolve estudos voltados à compreensão das interações sociais e ambientais de propriedades/áreas/regiões.",
+                "Com uma equipe altamente qualificada, e em consonância com a legislação vigente, são realizadas etapas de levantamento de informações e coletas de dados, com o objetivo de conhecer os componentes ambientais e sociais de determinado local,  através de uma interpretação socioambiental (interações entre seres humanos, em determinadas condições, com o ambiente em que vivem). Diante isso, é possível descrever e qualificar os fatores físicos, biológicos, sociais e culturais.",
+                "Dessa forma, torna-se viável identificar e destacar os problemas ambientais e sociais que afetam determinada área e apresentar possíveis soluções e/ou propor ações mitigadoras através de relatório técnico especializado."
             ]
         },
 
         {
+            "id": 2,
             "nome": "Inventário Florestal",
             "srcImg": "./imagens-servicos/inventario.png",
             "srcIcone": "./icones-servicos/inventario.svg",
@@ -23,10 +31,16 @@
                 "Projeto de recuperação de área degradada (PRAD)",
                 "Quantificação de carbono do solo",
                 "Quantificação de carbono florestal"
+            ],
+
+            "texto": [
+                "O estudo da flora é outro pilar obrigatório para implementação de projetos voltados a REDD e REDD+ e CCB, diante disso, oferecemos o serviço de Inventário Florestal com técnicas e equipamentos utilizados para dimensionar os recursos florestais por meio de variáveis qualitativas e quantitativas, bem como a coleta de outras informações a respeito da área. Por meio desse procedimento, obtemos diversas informações, que são fundamentais para o manejo correto dos recursos florestais. Nesse sentido, o inventário completo pode fornecer dados sobre a área, o estoque de biomassa e carbono que a floresta armazena, além de um mapeamento de potencial econômico da floresta.",
+                "Mas além de projetos voltados a descarbonização ambiental, também estávamos focados em outras áreas e a restauração é uma delas. Realizamos projetos de PRADA (Plano de Recuperação de Áreas Degradadas ou Alteradas) que visa reaver o equilíbrio ecológico de uma área que sofreu degradação, seja por ação humana ou natural. Elaboramos o plano que orienta a execução e o acompanhamento da recuperação contemplando quesitos como: caracterização da área degradada e entorno, bem como do(s) agente(s) causador(es) da degradação; escolha de proposta de recuperação; definição dos parâmetros a serem recuperados com base numa área adotada como referência ou controle; adoção de um modelo de recuperação; detalhamento das técnicas e ações a serem adotadas para a recuperação; inclusão de proposta de monitoramento e avaliação da efetividade da recuperação; e previsão dos insumos, custos e cronograma referente à execução e consolidação da recuperação."
             ]
         },
 
         {
+            "id": 3,
             "nome": "Biodiversidade",
             "srcImg": "./imagens-servicos/biodiversidade.jpg",
             "srcIcone": "./icones-servicos/biodiversidade.svg",
@@ -38,6 +52,11 @@
                 "Ictiofauna",
                 "Mastofauna",
                 "Quiropterofauna"
+            ],
+
+            "texto": [
+                "Na natureza, todas as formas de vida desempenham funções que contribuem para o equilíbrio dos ecossistemas e a diversidade biológica influencia diretamente os ciclos que sustentam a vida no planeta. A importância da biodiversidade é evidente na vertente ecológica e ambiental, uma vez que a sua contribuição é essencial para regulação e manutenção dos serviços naturais, que inclui a captura de carbono, regulação do clima e entre outros serviços do ecossistema.",
+                "Os serviços de levantamento e monitoramento da fauna são cruciais para a implementação de projetos de REDD e REDD+, pois fornecem informações sobre a diversidade presente na área. Esses dados são fundamentais para as estratégias de conservação, identificação de espécies de alto valor para a conservação e o monitoramento de atividades sobre a fauna local."
             ]
         }
     ]

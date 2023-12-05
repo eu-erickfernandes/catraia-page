@@ -4,12 +4,14 @@ import Sobre from "./secoes/Sobre"
 import Mapa from "./secoes/Mapa"
 import Contato from "./secoes/Contato"
 
-const Home = () => {
+const Home = ({ searchParams }) => {
+  const dialog = searchParams.dialog
+
   return (
     <>
       <Hero />
       <Sobre />
-      <Servicos />
+      <Servicos dialog={ dialog } />
       <Mapa />
       <Contato />
     </>
