@@ -24,6 +24,7 @@ const ContainerServicos = ({ dialog }) => {
                     {dialog == servico.id &&
                         <ModalServico
                             nome={ servico.nome }
+                            icone={ servico.srcIcone }
                             texto={ servico.texto }
                         />
                     }

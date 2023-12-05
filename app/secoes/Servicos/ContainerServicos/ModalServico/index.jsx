@@ -2,8 +2,9 @@
 
 import { useRouter } from 'next/navigation'
 import styles from './ModalServico.module.css'
+import Link from 'next/link'
 
-const ModalServico = ({ nome, texto }) => {
+const ModalServico = ({ nome, texto, icone }) => {
     const router = useRouter()
     
     const className = `${ styles.modalServico } backdrop`
@@ -15,8 +16,18 @@ const ModalServico = ({ nome, texto }) => {
     return(
         <div className={ className } onClick={ fechaModal }>
             <div className={ styles.modal__conteudo }>
+                <Link
+                    className={ styles.modal__fechar } 
+                    href='/' 
+                    scroll={ false }
+                >
+                    <img src="./icones-servicos/fechar.svg" alt="" />
+                </Link>
 
-                <h4 className={ styles.servico__nome }>{ nome }</h4>
+                <div className={ styles.conteudo__cabecalho }>
+                    <img className={ styles.servico__icone } src={ icone  } alt={ nome } />
+                    <h4 className={ styles.servico__nome }>{ nome }</h4>
+                </div>
 
                 {texto.map((paragrafo, index) => (
                     <p key={ index } className={ styles.servico__paragrafo }>{ paragrafo }</p>
