@@ -11,7 +11,7 @@
     .containerLinkRedes{
         border-radius: 0;
         display: flex;
-        gap: 1rem;
+        gap: .5rem;
         width: 100%;
     }
 }

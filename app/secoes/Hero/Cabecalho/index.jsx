@@ -33,14 +33,20 @@ const Cabecalho = () => {
 
             <menu className={ styles.cabecalho__menuRedes }>
                 <li>
-                    <a href="#" target='_blank'>
+                    <a href="https://whatsa.me/5568992085791" target='_blank'>
                         <img src="./icones-redes/whatsapp.svg" alt="" />
                     </a>
                 </li>
 
                 <li>
-                    <a href="#" target='_blank'>
+                    <a href="https://www.instagram.com/catraia.ambiental/" target='_blank'>
                         <img src="./icones-redes/instagram.svg" alt="" />
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://br.linkedin.com/in/catraia-solu%C3%A7%C3%B5es-ambientais-282202212" target='_blank'>
+                        <img src="./icones-redes/linkedin.svg" alt="" />
                     </a>
                 </li>
             </menu>

@@ -1,10 +1,26 @@
 import Botao from "@/componentes/Botao"
 import styles from './Hero.module.css'
 import Cabecalho from "./Cabecalho"
+import Image from "next/image"
 
 const Hero = () => {
+    const imageStyle = {
+        objectFit: 'cover', 
+        objectPosition: 'center',
+        zIndex: '-1'
+    }
+
+
     return(
         <section  className={ styles.hero }>
+            <Image
+                alt="Imagem de fundo"
+                fill={true}
+                priority={true}
+                src='/fundo.png'
+                style={imageStyle}
+            />
+
             <Cabecalho />
             
             <main className={ styles.principal }>

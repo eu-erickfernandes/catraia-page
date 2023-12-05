@@ -2,7 +2,12 @@
     display: block;
     padding-block: 1.25rem;
     padding-inline: 4rem;
+    transition: .5s;
 }    
+
+    .linkRede:hover{
+        opacity: .8;
+    }
 
     .linkRede.instagram{
         background-color: black;
@@ -12,6 +17,10 @@
 
     .linkRede.whatsapp{
         background-color: var(--cor-verde);
+    }
+
+    .linkRede.linkedin{
+        background-color: hsl(224, 50%, 40%);
     }
 
     .linkRede.email{

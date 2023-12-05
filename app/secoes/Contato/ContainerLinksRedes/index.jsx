@@ -15,6 +15,11 @@ const ContainerLinksRedes = () => {
             />
 
             <LinkRede
+                rede="linkedin"
+                url="https://br.linkedin.com/in/catraia-solu%C3%A7%C3%B5es-ambientais-282202212"
+            />
+
+            <LinkRede
                 rede="email"
                 url="mailto:catraia.ambiental@gmail.com"
             />
