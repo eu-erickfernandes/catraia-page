@@ -3,8 +3,6 @@ import CardServico from './CardServico'
 import styles from './ContainerServicos.module.css'
 import ModalServico from './ModalServico'
 
-// TODO
-// - Estilização do modal
 const ContainerServicos = ({ dialog }) => {
     const json = require('./servicos.json')
     const servicos = json.servicos

@@ -2,15 +2,13 @@
     --largura-container: 1200px;
 
     align-items: center;
-    /* background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('./fundo.png');
-    background-position: center;
-    background-size: cover; */
     box-sizing: border-box;
     color: var(--cor-branco);
     display: flex;
     flex-direction: column;
     height: 100svh;
     padding-top: 2rem;
+    position: relative;
 }
 
 .principal{

@@ -10,7 +10,6 @@ const Hero = () => {
         zIndex: '-1'
     }
 
-
     return(
         <section  className={ styles.hero }>
             <Image

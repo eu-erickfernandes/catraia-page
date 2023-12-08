@@ -2,12 +2,20 @@ import Link from 'next/link'
 import styles from './CardServico.module.css'
 import iconeItem from './item-lista.svg'
 import Botao from '@/componentes/Botao'
+import Image from 'next/image'
 
 const CardServico = ({ id, nome, srcImg, srcIcone, lista }) => {
     return (
         <div className={ styles.cardServico }>
             <div className={ styles.servico__conteudo }>
-                <img className={ styles.servico__imagem } src={ srcImg } alt={ nome } loading='lazy'/>
+                <Image 
+                    alt={ nome }
+                    className={ styles.servico__imagem }
+                    height={ 500 }
+                    quality={ 100 }
+                    src={ srcImg }
+                    width={ 500 }
+                />
                 
                 <div className={ styles.servico__containerTitulo }>
                     <img className={ styles.servico__icone } src={ srcIcone } alt={ nome } loading='lazy'/>

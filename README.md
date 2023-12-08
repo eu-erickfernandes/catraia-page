@@ -13,3 +13,9 @@ Este projeto consiste na construção de uma landing page para expor os serviço
 ![Vercel](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ## ⚒️ Como instalar
+
+- Clonando o repositório
+
+- Instalando as dependências
+
+- Rodando a aplicação em modo de desenvolvimento

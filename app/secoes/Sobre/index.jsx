@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './Sobre.module.css'
 
 const Sobre = () => {
@@ -7,7 +8,14 @@ const Sobre = () => {
                 <h2 className='secao__titulo'>Um pouco da nossa história</h2>
             </header>
 
-            <img className={ styles.sobre__imagem } src='./foto-equipe.png' alt='Foto da equipe da Catraia' loading='lazy'/>
+            <Image
+                alt='Equipe Catraia'
+                className={ styles.sobre__imagem }
+                height={1000}
+                quality={100}
+                src='/foto-equipe.png'
+                width={1000}
+            />
 
             <main className={ styles.sobre__principal }>
                 <h2 className={ `secao__titulo ${ styles.sobre__titulo }` }>Um pouco da nossa história</h2>

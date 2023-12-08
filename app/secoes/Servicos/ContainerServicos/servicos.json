@@ -3,7 +3,7 @@
         {   
             "id": 1,
             "nome": "Estudos Socioambientais",
-            "srcImg": "./imagens-servicos/estudos.jpg",
+            "srcImg": "/imagens-servicos/estudos.jpg",
             "srcIcone": "./icones-servicos/estudos.svg",
 
             "lista": [
@@ -22,7 +22,7 @@
         {
             "id": 2,
             "nome": "Inventário Florestal",
-            "srcImg": "./imagens-servicos/inventario.png",
+            "srcImg": "/imagens-servicos/inventario.png",
             "srcIcone": "./icones-servicos/inventario.svg",
 
             "lista": [
@@ -42,7 +42,7 @@
         {
             "id": 3,
             "nome": "Biodiversidade",
-            "srcImg": "./imagens-servicos/biodiversidade.jpg",
+            "srcImg": "/imagens-servicos/biodiversidade.jpg",
             "srcIcone": "./icones-servicos/biodiversidade.svg",
 
             "lista": [
