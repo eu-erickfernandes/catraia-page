@@ -15,7 +15,17 @@ Este projeto consiste na construção de uma landing page para expor os serviço
 ## ⚒️ Como instalar
 
 - Clonando o repositório
+```bash
+$ git clone https://github.com/eu-erickfernandes/catraia-page.git
+```
 
 - Instalando as dependências
+```bash
+$ cd catraia-page
+$ npm install
+```
 
 - Rodando a aplicação em modo de desenvolvimento
+```bash
+$ npm run dev
+```
