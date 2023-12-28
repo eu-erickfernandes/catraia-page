@@ -14,7 +14,9 @@ const Hero = () => {
         <section  className={ styles.hero }>
             <Image
                 alt="Imagem de fundo"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkE+b4DwABagEiQgOlogAAAABJRU5ErkJggg=="
                 fill={true}
+                placeholder="blur"
                 priority={true}
                 src='/fundo.png'
                 style={imageStyle}

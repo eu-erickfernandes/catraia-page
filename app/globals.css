@@ -79,14 +79,10 @@ body, body *{
     --cor-cinza: hsl(0, 0%, 60%);
     --cor-preto: hsl(0, 0%, 0%);
 
-    /* --cor-roxo: hsl(250, 50%, 30%); */
-    /* --cor-roxo--5: hsl(250, 50%, 5%); */
-
     --cor-verde: hsl(150, 50%, 40%);
     --cor-verde-hover: hsl(150, 50%, 60%);
 
     /* Componentes */
-    /* --cor-fundo--roxo: hsl(250, 60%, 95%); */
     --cor-fundo--verde: hsl(150, 60%, 95%);
     --cor-fundo--verde-escuro: hsl(130, 52%, 5%);
 }
