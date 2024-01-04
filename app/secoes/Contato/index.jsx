@@ -11,8 +11,6 @@ const Contato = () => {
 
             <div className={ styles.contato__container }>
                 <form className={ styles.contato__formulario }>
-                    <h3 className={ styles.contato__subtitulo }>Diretamente para o nosso e-mail</h3>
-                    
                     <Input 
                         name="nome" 
                         type="text" 
