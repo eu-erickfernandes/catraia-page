@@ -11,7 +11,7 @@ const Mapa = () => {
                 </div>
 
                 <div className={ styles.mapa__endereco }>
-                    <p>Rua General Vieira de Melo, 586</p>
+                    <p>Rua General Vieira de Melo, 588</p>
                     <p>•</p>
                     <p>Conjunto Esperança</p>
                     <p>•</p>

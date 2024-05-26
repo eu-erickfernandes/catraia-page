@@ -31,8 +31,8 @@ const Hero = () => {
                     <h2 className={ styles.titulo }>Conservando a natureza,<br/>conectando comunidades e<br/>inspirando um futuro sustentável</h2>
                     <h2 className={ styles.tituloMobile }>Conservando a natureza, conectando comunidades e inspirando um futuro sustentável</h2>
 
-                    <p className={ styles.subtitulo }>Conheça o nosso portifólio de serviços para apoiar empresas<br/>em suas iniciativas de sustentabilidade.</p>
-                    <p className={ styles.subtituloMobile }>Conheça o nosso portifólio de serviços<br/>para apoiar empresas em suas<br/>iniciativas de sustentabilidade.</p>
+                    <p className={ styles.subtitulo }>Conheça o nosso portfólio de serviços para apoiar empresas<br/>em suas iniciativas de sustentabilidade.</p>
+                    <p className={ styles.subtituloMobile }>Conheça o nosso portfólio de serviços<br/>para apoiar empresas em suas<br/>iniciativas de sustentabilidade.</p>
                 </div>
                 
                 <div className={ styles.principal__botoes }>
