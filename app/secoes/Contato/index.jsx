@@ -7,7 +7,7 @@ import Botao from '@/componentes/Botao'
 const Contato = () => {
     return(
         <section className={ styles.contato } id="contato">
-            <h2 className={ `secao__titulo ${ styles.contato__titulo }` }>Fale concosco</h2>
+            <h2 className={ `secao__titulo ${ styles.contato__titulo }` }>Fale Concosco</h2>
 
             <div className={ styles.contato__container }>
                 <form className={ styles.contato__formulario }>

@@ -27,7 +27,7 @@ const Cabecalho = () => {
                 <li>•</li>
 
                 <li>
-                    <a href='#contato'>Fale conosco</a>
+                    <a href='#contato'>Fale Conosco</a>
                 </li>
             </menu>
 

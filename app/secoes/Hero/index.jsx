@@ -37,7 +37,7 @@ const Hero = () => {
                 
                 <div className={ styles.principal__botoes }>
                     <a href="#contato">
-                        <Botao>Fale concosco</Botao>
+                        <Botao>Fale Concosco</Botao>
                     </a>
                     
                     <a href="#servicos">
